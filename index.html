@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" link/>
+</head>
+<body>
+    <!-- Navigation section -->
+    <nav class="bg-gray-800 p-4 w-full sticky top-0">
+        <div class="container mx-auto flex justify-between items-center nav">
+            <!-- Logo -->
+            <div>
+                <h1 class="text-white font-bold text-3xl ">JUBILEE</h1>
+            </div>
+    
+            <!-- Navigation Links -->
+         <div class="hidden md:flex justify-evenly items-center space-x-4 uppercase text-white upperh mr-56"> 
+               <div class="pr-24"> <a href="#home" class="text-l">Home</a></div>
+               <div class="pr-12 "> <a href="#about" class="text-l">About</a> </div>
+               <div class="pr-12"> <a href="#service" class="text-l">Service</a></div>
+               <div class="pr-12"> <a href="#project" class="text-l">Project</a></div>
+                <div class="pr-12"><a href="#blog" class="text-l">Blog</a> </div>
+               <div class="pr-12"> <a href="#contact" class="text-l">Contact</a></div>
+            </div>
+            
+    
+            <!-- Mobile Toggle Button -->
+            <div class="md:hidden">
+                <button id="toggle-btn" class="text-white">&#9776;</button>
+            </div>
+        </div>
+    
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden mt-4 hidden">
+            <div class="flex flex-col items-center space-y-4 uppercase font-bold text-white">
+                <a href="#home" class="text-l">Home</a>
+                <a href="#about" class="text-l">About</a>
+                <a href="#service" class="text-l">Service</a>
+                <a href="#project" class="text-l">Project</a>
+                <a href="#blog" class="text-l">Blog</a>
+                <a href="#contact" class="text-l">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <script>
+        const toggleBtn = document.getElementById('toggle-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+    
+        toggleBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+    
+    <!-- First Section -->
+    <section id="home" class="first">
+        <div class="pt-24">
+            <div>
+                <h1 class="text-3xl text-white font-bold p-4">Improving Rural Farming Sustainably</h1>
+            </div>
+            <div>
+                <p class="text-white text-l p-4">
+                    Jubilee Agricultural Services is one of the fastest growing <br> agric company
+                    in Nigeria that engages in providing sustainable access of <br>
+                    essential resources to farmers and agribusinesses, geared <br>
+                    towards maximum contribution to global food security
+                </p>
+            </div>
+        </div>
+        
+ </section>
+ 
+ <!-- Second section  -->
+ <section id="about">
+    <div>
+        <div class="flex flex-col lg:flex-row justify-around mt-8 ">
+            <div class="text-center"><a href="">
+                <h4 class="mt-8 text-center text-green-700 font-bold">ABOUT US</h4>
+
+                <p class=" text-l mt-6 ml-4 ">
+                    At <span class="text-green-700 font-bold">Jubilee Agricultual Services,</span> we pride ourselves on our state-of-the-art <br> poultry facilities where we raise healthy and happy chickens. <br> Our modern farms are equipped with the latest technologies to ensure <br> optimal living conditions, nutrition, and veterinary care for our poultry.</p>
+                   
+            <p class=" mt-2 text-l ml-4"> Dive into the world of aquaculture with our advanced fishery operations. <br> We rear a variety of fish species in carefully monitored aquatic environments. <br> Our commitment to quality and sustainability ensures that our fish are raised with the utmost care, <br> resulting in fresh and flavorful seafood for our customers. <br> Over the years, we have train millions of Nigerians in the business of catfish farming  <br> and supplied quality products to customers across Nigeria and Africa. </p>
+
+            </a></div>
+
+            <div><img src="./new polt.jpg" alt="" class=""></div>
+        </div>
+    </div>
+ </section>
+
+<!-- Third section  -->
+ <section class="p-4 md:p-8 lg:p-12 xl:p-16" id="service">
+
+    <div class="mt-8 text-center lg:text-left">
+        <h3 class="text-green-700 text-xl md:text-2xl lg:text-3xl">WHAT WE DO</h3>
+        <h1 class="text-green-700 text-2xl md:text-3xl lg:text-4xl mt-2">SERVICES WE OFFER</h1>
+    </div>
+
+    <div class="flex flex-col items-center md:flex-row lg:flex-row justify-center lg:justify-around mt-8 space-y-8 lg:space-y-0">
+
+       <div><div data-aos="fade-down-right"><img src="./hens-egg-production-White-Leghorn-layer-house.webp" alt="" class="w-96 h-56 ml-2"></div>
+        <br>
+        <div class="polt bg-slate-300 ml-2"><h1 class="text-center text-l text-green-700 font-bold">POULTRY PRODUCT </h1>
+            <p class="p-2">In the Agricultural industry, Poultry product is a prime example, which vertically integrates. We offer both Poultry meat production and Egg production. The Layers gives us eggs and from broilers, we can get meat. <br> The poultry business is praise able and beneficial activity in our company such as chickens, turkeys and guinea fowls </p></div></div>
+
+       <div><div data-aos="zoom-out-left"> <img src="./Catfish-Growing..jpg" alt="" class="w-96 h-56 ml-2"> </div>
+         <br>
+        <div class="polt bg-slate-300 ml-2"><h1 class="text-center text-l text-green-700 font-bold">FISHERY PRODUCT</h1>
+            <p class="p-2">The fishing industry which harvests fish from fisheries can be divided into three main sectors: commercial, recreational or subsistence. <br> In our company, We mainly produce Catfish and Marketing of fish involves all the activities in the flow of fish or fish products from the farmer to the consumers.</p></div></div>
+
+       <div> <div data-aos="zoom-out-right"><img src="./45193123515_8a3f0559fe_o-2-2000-88fe9e359b0e4e78891b8b99cea65840.jpg" alt="" class="w-96 h-56 ml-2"></div>
+        <br>
+        <div class="polt bg-slate-300 ml-2"><h1 class="text-l text-center text-green-700 font-bold">CATTLE PRODUCT</h1>
+            <p class="p-2">Cattle are commonly raised as livestock for meat (beef or veal), for milk, and for hides, which are used to make leather. They are used as riding animals and draft animals. Another product of cattle is dung, which can be used to create manure or fuel. <br> Our farmers have a private cattle ranch in Oyo state with veterinary doctors on the ground for animal health and management</p></div></div>
+
+    </div>
+</section>
+
+<!-- Fourth section  -->
+<section id="project">
+    <div>
+        <div class="bg-red-200 choose">
+            <div class="text-center mt-12">
+                <h1 class="text-4xl text-white font-bold us pt-12">WHY CHOOSE US</h1>
+            </div>
+    
+            <div class="flex flex-wrap justify-center items-center pt-12 ">
+                <div class="ml-4 md:ml-12 lg:ml-12 xl:ml-12">
+                    <h1 class="border border-green rounded-full inline-block p-8 font-bold text-4xl">300+</h1>
+                    <h2 class="mt-2 text-center text-lg font-bold text-white md:text-l lg:text-l">REGULAR <br> CUSTOMERS</h2>
+                </div>
+    
+                <div class="ml-4 md:ml-12 lg:ml-12 xl:ml-12 mt-4 md:mt-0 lg:mt-0 xl:mt-0">
+                    <h1 class="border border-green rounded-full inline-block p-8 font-bold text-4xl">30+</h1>
+                    <h2 class="mt-2 text-center text-lg text-white font-bold md:text-l lg:text-l">PROFESSIONAL <br> ENGINEERING</h2>
+                </div>
+    
+                <div class="ml-4 md:ml-12 lg:ml-12 xl:ml-12 mt-4 md:mt-0 lg:mt-0 xl:mt-0">
+                    <h1 class="border border-green rounded-full inline-block p-8 font-bold text-4xl">900+</h1>
+                    <h2 class="mt-2 text-center text-lg text-white font-bold md:text-l lg:text-l">POINT OF SALES <br> GOOD</h2>
+                </div>
+    
+                <div class="ml-4 md:ml-12 lg:ml-12 xl:ml-12 mt-4 md:mt-0 lg:mt-0 xl:mt-0">
+                    <h1 class="border border-green rounded-full inline-block p-8 font-bold text-4xl">20+</h1>
+                    <h2 class="mt-2 text-center text-lg font-bold text-white md:text-l lg:text-l">AWARDS <br> WON</h2>
+                </div>
+            </div>
+        </div>
+        </div>
+</section>
+
+<!-- Fifth section  -->
+<section class="p-4 md:p-8 lg:p-12 xl:p-16" id="blog">
+
+    <div class="mt-8 text-center lg:text-left">
+        <h3 class="text-green-700 text-xl md:text-2xl lg:text-3xl">OUR</h3>
+        <h1 class="text-green-700 text-2xl md:text-3xl lg:text-4xl mt-2">LATEST NEWS</h1>
+    </div>
+
+    <div class="flex flex-col items-center md:flex-row lg:flex-row justify-center lg:justify-around mt-8 space-y-8 lg:space-y-0">
+
+       <div> <img src="./chicken-broiler.jpg" alt="" class="w-96 h-56 ml-2">
+        <br>
+        <div class="polt bg-slate-700 ml-2"><h1 class="text-center text-l text-white font-bold">Why is poultry feed expensive in Nigeria? </h1>
+            <p class="text-white p-2">The factors responsible for this been the scarcity and high cost of this crops, climate change, increased competition between humans and animals for the feed ingredients especially maize and soybean and activities of traders buying and hoarding the grains. <br>Therefore; the total number of which is 800Kg divided by 25kg=32 bags of feeds. This also means you will need 32bags of feed to raise 100 birds from week 1-week 9 to make them weigh atleast 4kg per bird in 9 weeks. </p></div></div>
+
+       <div> <img src="./catfish indoor breed.jpg" alt="" class="w-96 h-56 ml-2">
+         <br>
+        <div class="polt bg-slate-700 ml-2"><h1 class="text-center text-l text-white font-bold">Promotion of fishery</h1>
+            <p class="text-white p-2">Based on the expertise of JUBILEE AGRICULTURAL SERVICES, We have developed an Innovative lake breeding Technique. <br>
+                Our fish feed is also fortified with vitamins, minerals, essential proteins and oils – notably Omega 3. <br> This not only strengthens the immune system of the fish, but also provides a more nutritious product for our customers.</p></div></div>
+
+       <div> <img src="./CATTLE-REARING.jpg" alt="" class="w-96 h-56 ml-2">
+        <br>
+        <div class="polt bg-slate-700 ml-2"><h1 class="text-l text-center text-white font-bold">Cattle Rearing</h1>
+    <p class="text-white p-2">As stakeholders in the Livestock sector, our aim is to create an ecosystem where all major stakeholders in the livestock value chain can co-exist together to create a synergy. <br> Through this synergy, we are on the road to agricultural transformations.</p></div></div>
+
+    </div>
+</section>
+
+<!-- Sixth section  -->
+   <section id="contact">
+    <div>
+        <div class=" bg-slate-200">
+            <h1 class="pt-12 text-center text-green-700 text-2xl font-bold">OUR CONTACT</h1>
+            <h1 class="pt-6 text-3xl text-green-700 text-center">REQUEST A CALL BACK</h1>
+            <div class="text-center pt-4">
+                <input type="text" placeholder="Your Name" class="inp mt-4">
+                <br>
+                <input type="text" placeholder="Phone Number" class="inp mt-4">
+                <br>
+                <input type="text" placeholder="Message" class="inp2 mt-4">
+            </div>
+            <br>
+             <div class="flex flex-col justify-center items-center p-4">
+             <button  class="btn text-blue-800 text-xl mx-auto">SEND</button>
+             </div>
+        </div>
+    </div>
+   </section>
+
+   <!-- seventh section -->
+   <footer>
+    <div>
+        <div class="bg-neutral-900">
+          <div class="flex flex-col lg:flex-row justify-around p-12">
+            <div> <h1 class="text-white font-bold text-3xl ">JUBILEE</h1></div>
+            
+             <div class="upperh"><h2 class="text-white">Quick Links</h2>
+                <a href="#home" class="text-l text-white">Home</a> <br>
+                <a href="#about" class="text-l text-white">About</a> <br>
+                <a href="#service" class="text-l text-white">Service</a> <br>
+                <a href="#project" class="text-l text-white">Project</a> <br>
+                <a href="#blog" class="text-l text-white">Blog</a> <br>
+                <a href="#contact" class="text-l text-white">Contact</a> </div>
+
+            <div class="p-2"><h2 class="text-white">Contact Us :</h2>
+               <h3 class="text-white">Address: <br> NO. 20, FATUMOH AREA, ALONG IBADAN-IWO <br> EXPRESS WAY IBADAN , EGBEDA</h3>
+               <br>
+               <h2 class="text-white">Phone No : <br> 08035758514 <br> </h2>
+               <h3></h3>
+            </div>
+          </div>
+
+          <hr class="text-white">
+
+          <div class="flex justify-center">
+            <img src="./copy-removebg-preview.png" alt="" class="w-12 h-12 white-image">
+            <p class="text-white mt-4">2024 Copyright of Jubilee Agricultural Services</p>
+          </div>
+        </div>
+    </div>
+   </footer>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+        AOS.init();
+      </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.uppernav{
+    margin-right: 500px;
+    margin-top: 50px;
+
+}
+.uppernavi{
+    margin-right: 70px;
+}
+.upperh a:hover{
+ color:rgb(58, 12, 243);
+ 
+}
+.polt{
+    border: 0px solid black;
+    border-radius: 4px;
+    width: 385px;
+    height: 250px ;
+    margin-top: -24px;
+}
+.first{
+    background-image: url(./farmce.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.choose{
+    background-image: url(./chose.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.inp{
+    border: 1px solid black;
+    width: 550px;
+    height: 60px;
+}
+.inp2{
+    border: 1px solid black;
+    width: 550px;
+    height: 100px;
+}
+.btn{
+    border: 1px solid rgb(245, 239, 239);
+    border-radius: 4px;
+    width: 90px;
+
+}
+.white-image {
+    filter: brightness(0) invert(1) grayscale(1) brightness(1);
+    margin-top: 4px;
+    position: relative;
+    left: 12px;
+  }
